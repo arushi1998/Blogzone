@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <stroke android:color="#000000"
+                android:width="6dp"/>
+            <corners android:radius="15dp"/>
+        </shape>
+    </item>
+    <item android:top="@dimen/cardview_default_elevation"
+        android:left="@dimen/cardview_default_elevation"
+        android:bottom="@dimen/cardview_default_elevation"
+        android:right="@dimen/cardview_default_elevation">
+        <shape>
+            <stroke android:color="#FF69B4"
+                android:width="4dp"/>
+            <corners android:radius="15dp"/>
+        </shape>
+    </item>
+
+
+</layer-list>
